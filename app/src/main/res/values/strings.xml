@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">My- Final- Project- Application</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="setting">Setting:</string>
+    <string name="km">KM:</string>
+    <string name="miles">MILES:</string>
+    <string name="radius">Radius:</string>
+    <string name="please_enter_the_radious">Please Enter The Radious</string>
+    <string name="save_setting">Save Setting</string>
+    <string name="enter_place_here">Enter Place Here</string>
+    <string name="name_of_place">Name of place</string>
+    <string name="adress_of_place">Adress of place</string>
+
+
+    <string-array name="Distance">
+        <item>kilometers</item>
+        <item>miles</item>
+    </string-array>
+
+    <string-array name="Distance_values">
+        <item>KM</item>
+        <item>MILE</item>
+    </string-array>
+</resources>

@@ -1,0 +1,49 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/frag_search"
+    tools:context="Search_Place">
+
+    <EditText
+        android:id="@+id/search_address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/list_search"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:hint="@string/enter_place_here" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/list_search"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/butSearch"
+        android:layout_gravity="center"
+        android:layout_marginTop="38dp"
+        android:clickable="true"
+        />
+
+    <Button
+        android:id="@+id/but_Near_by"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_gravity="center_horizontal|top"
+        android:background="@android:drawable/ic_menu_mylocation" />
+
+    <Button
+        android:id="@+id/butSearch"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_alignParentTop="true"
+        android:layout_gravity="right|top"
+        android:layout_toLeftOf="@+id/but_Near_by"
+        android:background="@drawable/places_ic_search" />
+
+
+</RelativeLayout>
